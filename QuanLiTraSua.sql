@@ -1,6 +1,6 @@
 /* ============================================================
    CƠ SỞ DỮ LIỆU: QuanLiTraSua
-   Website Bán Trà Sữa (Trà Sữa 3AE) - ASP.NET MVC 5
+   Website Bán Trà Sữa (Trà Mây) - ASP.NET MVC 5
    Tác giả : Trần Văn Hưng - Lớp DK25TTC5
    ------------------------------------------------------------
    Cách dùng:
@@ -158,7 +158,7 @@ CREATE TABLE dbo.ChiTietDonHang (
 GO
 
 /* ============================================================
-   DỮ LIỆU MẪU (thông tin của cửa hàng Trà Sữa 3AE / Trần Văn Hưng)
+   DỮ LIỆU MẪU (thông tin của cửa hàng Trà Mây / Trần Văn Hưng)
    ============================================================ */
 
 -- Tài khoản quản trị (đăng nhập trang Admin)
@@ -209,5 +209,5 @@ VALUES (N'Nguyễn Văn An', 'khachhang', '123456', 'khachhang@example.com',
         N'TP. Hồ Chí Minh', '0900000000');
 GO
 
-PRINT N'>>> Da tao xong CSDL QuanLiTraSua va du lieu mau (Tra Sua 3AE).';
+PRINT N'>>> Da tao xong CSDL QuanLiTraSua va du lieu mau (Tra May).';
 GO
