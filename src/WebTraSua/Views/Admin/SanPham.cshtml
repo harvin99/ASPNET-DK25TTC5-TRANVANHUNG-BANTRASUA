@@ -48,7 +48,7 @@ if (input.Length < length)
                 @Html.DisplayFor(modelItem => item.NguyenLieu)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.GiaBan)
+                @WebTraSua.Models.TienTe.Tien(item.GiaBan)
             </td>
             <td>
                 @Truncate(item.MoTa, 50)

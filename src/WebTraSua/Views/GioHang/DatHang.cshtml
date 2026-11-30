@@ -23,13 +23,13 @@
             <td style="border:solid"> @item.sTenSP</td>
             <td border:solid><img src="~/images/@item.sAnhBia" width="100"></td>
             <td style="border:solid">@item.iSlMua</td>
-            <td style="border:solid">@item.dGiaBan</td>
-            <td style="border:solid">@item.dThanhTien</td>
+            <td style="border:solid">@WebTraSua.Models.TienTe.Tien(item.dGiaBan)</td>
+            <td style="border:solid">@WebTraSua.Models.TienTe.Tien(item.dThanhTien)</td>
         </tr>
     }
     <tr style="font-weight: bold; text-align: right; color: red;font-size:20px">
         <td colspan="3">Số Lượng Sản Phẩm: @ViewBag.TongSoLuong</td>
-        <td colspan="2">Tổng Tiền: @ViewBag.TongTien VNĐ</td>
+        <td colspan="2">Tổng Tiền: @WebTraSua.Models.TienTe.VND((decimal)ViewBag.TongTien)</td>
     </tr>
     <tr style="font-weight: bold; color:blue; text-align:right">
         <td colspan="6">
