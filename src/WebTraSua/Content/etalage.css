@@ -101,3 +101,13 @@
 .etalage{ direction:ltr }
 div.etalage_description{ position:absolute; bottom:0; left:0; z-index:999 }
 div.etalage_description.rtl{ direction:rtl; text-align:right }
+/* THEME 2026 — thư viện ảnh sản phẩm đặt trên ô màu, không viền */
+#etalage { margin-bottom: 0; }
+#etalage .etalage_thumb { border: 0; padding: 0; background: transparent; }
+#etalage .etalage_thumb_image { mix-blend-mode: multiply; }
+#etalage .etalage_small_thumbs li { border: 0; padding: 0; margin: 16px 12px 0 0; background: rgba(255,255,255,.55); transition: background .2s ease; }
+#etalage .etalage_small_thumbs li:hover, #etalage ul li.etalage_smallthumb_active { background: #fff; }
+#etalage .etalage_small_thumbs li img { mix-blend-mode: multiply; }
+#etalage .etalage_zoom_area, .etalage_zoom_area { border: 0; padding: 0; background: #fff; }
+#etalage .etalage_magnifier { background: rgba(255,255,255,.6); border: 0; }
+#etalage .etalage_icon, #etalage .etalage_hint { display: none !important; }
